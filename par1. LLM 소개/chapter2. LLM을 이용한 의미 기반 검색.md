@@ -1,5 +1,7 @@
 # CHAPTER 2. LLM을 이용한 의미 기반 검색
 
+<img width="407" height="385" alt="image" src="https://github.com/user-attachments/assets/7e066cfc-4298-42db-aa26-03b1b2dca376" />
+
 ## 비대칭적 의미 기반 검색
 
 ### 의미 기반 검색 시스템
@@ -52,7 +54,8 @@ ex> 오픈 AI의 "임베딩" 제품 (클로즈드 소스)
 - 그들이 수직이면 (90도간격) : 0점
 - 그들이 반대방향이면        : -1점
 ```
-[예시사진2]
+<img width="407" height="385" alt="image" src="https://github.com/user-attachments/assets/c194fa72-2f5a-42d3-a6d6-64a829a604c0" />
+
 
 
 ##### 오픈AI의 임베딩 엔진
@@ -98,7 +101,8 @@ len(embedded_text) == '3072'
 - 하나는 입력텍스트를 인코딩, 다른하나는 출력 텍스트를 인코딩
 - 문서간의 유사성을 학습하기 위해 단일 LLM(BERT)을 두개로 복제하여 병렬로 학습하는 독특한 방식으로 훈련됨
 - 예를 들어, 바이인코더는 질문을 단락에 연결하여 벡터공간에서 서로 가깝게 표시되도록 학습 가능.
-[예시사진 3]
+<img width="407" height="385" alt="image" src="https://github.com/user-attachments/assets/9e4b2f17-4a68-45b8-bd39-c5b7f96a2114" />
+
 
 ``` 사전 훈련된 sentence_transformer 패키지의 바이 인코더를 사용하여 텍스트를 임베딩하는 예시
 # 문장 트랜스포머 라이브러리 임포트하기
