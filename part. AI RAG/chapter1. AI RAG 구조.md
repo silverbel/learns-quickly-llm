@@ -1,4 +1,4 @@
-# RAG (Retrieval-Augmented Generation) 아키텍처 가이드
+# RAG (Retrieval-Augmented Generation)
 
 ## 1. RAG란?
 
